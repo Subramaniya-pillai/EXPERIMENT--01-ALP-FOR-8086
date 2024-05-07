@@ -86,7 +86,8 @@ hlt
 
 
 ## Output  
-![Alt text](image.png)
+![image](https://github.com/Subramaniya-pillai/EXPERIMENT--01-ALP-FOR-8086/assets/94166127/25e89d4e-acc9-4d29-9f85-ab194b34c42c)
+
 
  
 ## Subtraction   of 8 bit numbers  ALP 
@@ -99,7 +100,8 @@ hlt
 
  
 ## Output  
-![Alt text](image-1.png)
+![image](https://github.com/Subramaniya-pillai/EXPERIMENT--01-ALP-FOR-8086/assets/94166127/57a3fe61-b83c-4122-b1cd-ad3e29056655)
+
 ## Multiplication alp 
 ```
 mov al,10h
@@ -110,7 +112,8 @@ hlt
  ## Output  
 
 
-![Alt text](image-2.png)
+![image](https://github.com/Subramaniya-pillai/EXPERIMENT--01-ALP-FOR-8086/assets/94166127/f448dabb-6e11-4c34-a37e-27eabd48190f)
+
 
 
 ## Division alp 
@@ -122,8 +125,56 @@ hlt
 ```
 ## Output  
 
-![Alt text](image-3.png)
+![image](https://github.com/Subramaniya-pillai/EXPERIMENT--01-ALP-FOR-8086/assets/94166127/ecfe8f32-3bcf-4ae9-9bf5-f26395e69f80)
 
+## Programs for logical operations
+## AND alp
+```
+MOV AL,66H;
+MOV BL,77H;
+AND AL,BL
+HLT
+
+ret
+```
+## Output 
+![image](https://github.com/Subramaniya-pillai/EXPERIMENT--01-ALP-FOR-8086/assets/94166127/8e97766c-2db0-4a03-84a5-31132f348dda)
+
+## OR alp
+```
+MOV AL,99H;
+MOV BL,66H;
+OR AL,BL
+HLT
+
+ret 
+```
+## Output
+![image](https://github.com/Subramaniya-pillai/EXPERIMENT--01-ALP-FOR-8086/assets/94166127/a013031d-0168-4a25-97b2-57d7653cb696)
+
+## XOR alp
+```
+MOV AL,85H;
+MOV BL,45H;
+XOR AL,BL
+HLT
+
+ret                                           
+
+```
+## Output
+![image](https://github.com/Subramaniya-pillai/EXPERIMENT--01-ALP-FOR-8086/assets/94166127/3dc51991-816c-460b-bbc5-26d69a0ff749)
+
+## NOT alp
+```
+MOV AL,38H
+NOT AL
+HLT
+
+ret
+```
+## Output
+![image](https://github.com/Subramaniya-pillai/EXPERIMENT--01-ALP-FOR-8086/assets/94166127/6961d609-e5c3-4164-8349-700a3dfdd1a0)
 
 ## Result :
  Thus, a program is executed on ALP for the fundamental arithmetic and logical operations.
